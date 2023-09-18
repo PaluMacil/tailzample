@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+  <title>Artistic Musings</title>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-4xl font-semibold italic text-purple-600">Artistic Musings</h1>
+      <a href="/login" class="text-blue-500 hover:underline">Login</a>
+    </div>
+  </header>
+
+  <!-- Categories -->
+  <nav class="bg-gray-200 p-2">
+    <div class="container mx-auto flex space-x-4">
+      <a href="#" class="text-gray-700 hover:text-black">Paint Splatter</a>
+      <a href="#" class="text-gray-700 hover:text-black">Deep Thoughts</a>
+      <a href="#" class="text-gray-700 hover:text-black">Kitchen Artistry</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container mx-auto p-4">
+    
+    <!-- Post 1 -->
+    <article class="bg-white p-4 mb-6 shadow-md">
+      <h2 class="text-2xl font-bold">How to Paint with Coffee Spills</h2>
+      <p class="text-gray-700">Who needs brushes when your morning clumsiness creates modern art? Turn those coffee spills into abstract masterpieces!</p>
+    </article>
+
+    <!-- Post 2 -->
+    <article class="bg-white p-4 mb-6 shadow-md">
+      <h2 class="text-2xl font-bold">Deep Thoughts on Shallow Puddles</h2>
+      <p class="text-gray-700">Ever wondered what puddles think about all day? Join me on a whimsical journey as I converse with the rain's leftover droplets.</p>
+
+      <!-- Nested Comments Section -->
+      <section class="pl-8 mt-4">
+        <h3 class="text-xl font-semibold mb-4">Snippy Comments</h3>
+        <div class="border-b mb-4 pb-2">
+          <h4 class="text-lg font-semibold">Impatient User 1</h4>
+          <p class="text-gray-700">Puddles don't think! What's next, talking to walls?</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold">Snarky User 2</h4>
+          <p class="text-gray-700">Can't wait for the sequel: 'Deep Thoughts on Dirty Dishes'!</p>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
